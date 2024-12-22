@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #2d2d2d;
+}
+
+body{
+    background-color: rgb(242, 244, 235);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.title{
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+}
+.block{
+    width: 80%;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #e7e9e197;
+}
+.block:hover,
+.block:hover .question{
+    color: chocolate;
+    background-color: #e7e9e1;
+    transition: all 0.3s;
+}
+.block > .question{
+    color: var(--primary-color);
+}
+.block > .content{
+    padding-left: 1.5rem;
+}
